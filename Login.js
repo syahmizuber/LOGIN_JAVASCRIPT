@@ -10,14 +10,14 @@ function Login() {
 
 
     if (pass.length < 12) {
-        alert('Sorry, your password less than 8. Atleas more than or equal 8');
+        alert('Sorry, your password less than 12. Atleast more than or equal 12');
     }
 
     else if (user == '') {
 		alert("Please enter a username.");
 	}
     else if (user.length<6) {
-		alert("Username atleat 6 or more character");
+		alert("Username atleast 6 or more character");
 	}
 
     else if (!UppercaseReq.test(pass)) {
