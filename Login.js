@@ -9,7 +9,7 @@ function Login() {
     let SymbolReq = /(?=.*[#,_^!@*&])/;
 
 
-    if (pass.length < 8) {
+    if (pass.length < 12) {
         alert('Sorry, your password less than 8. Atleas more than or equal 8');
     }
 
